@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/images/fonts/Montserrat.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500 700;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/images/fonts/Montserrat.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 500 700;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("/images/fonts/Fraunces.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+:root {
+  --green500: hsl(158deg, 36%, 37%);
+  --green700: hsl(158deg, 42%, 18%);
+  --black: hsl(212deg, 21%, 14%);
+  --grey: hsl(228deg, 12%, 48%);
+  --cream: hsl(30deg, 38%, 92%);
+  --white: hsl(0deg, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
